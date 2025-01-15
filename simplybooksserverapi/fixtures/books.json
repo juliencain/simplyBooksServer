@@ -1,0 +1,52 @@
+[
+    {
+      "model": "simplybooksserverapi.book",
+      "pk": 1,
+      "fields": {
+        "author": 1,
+        "title": "Fear and Loathing in Las Vegas",
+        "image": "https://example.com/images/fear_and_loathing.jpg",
+        "price": "14.99",
+        "sale": true,
+        "description": "Hunter S. Thompson's iconic book that explores the counterculture of the 1960s through a wild, drug-fueled road trip."
+      }
+    },
+    {
+      "model": "simplybooksserverapi.book",
+      "pk": 2,
+      "fields": {
+        "author": 1,
+        "title": "The Rum Diary",
+        "image": "https://example.com/images/rum_diary.jpg",
+        "price": "12.00",
+        "sale": false,
+        "description": "Hunter S. Thompson's semi-autobiographical novel about a journalist's adventures in Puerto Rico."
+      }
+    },
+
+    {
+      "model": "simplybooksserverapi.book",
+      "pk": 3,
+      "fields": {
+        "author": 3,
+        "title": "Dune",
+        "image": "https://example.com/images/dune.jpg",
+        "price": "20.00",
+        "sale": false,
+        "description": "Frank Herbert's epic science fiction novel that explores politics, religion, and ecology on the desert planet of Arrakis."
+      }
+    },
+    {
+      "model": "simplybooksserverapi.book",
+      "pk": 4,
+      "fields": {
+        "author": 4,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "image": "https://example.com/images/harry_potter.jpg",
+        "price": "18.99",
+        "sale": true,
+        "description": "J.K. Rowling's magical first book in the Harry Potter series, where a young boy discovers he is a wizard."
+      }
+    }
+  ]
+  

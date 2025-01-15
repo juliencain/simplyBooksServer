@@ -1,0 +1,46 @@
+[
+    {
+        "model": "simplybooksserverapi.author",
+        "pk": 1,
+        "fields": {
+            "email": "hunter.thompson@example.com",
+            "first_name": "Hunter",
+            "last_name": "Thompson",
+            "image": "https://example.com/images/hunter_thompson.jpg",
+            "favorite": true
+        }
+    },
+    {
+        "model": "simplybooksserverapi.author",
+        "pk": 2,
+        "fields": {
+            "email": "jack.kerouac@example.com",
+            "first_name": "Jack",
+            "last_name": "Kerouac",
+            "image": "https://example.com/images/jack_kerouac.jpg",
+            "favorite": true
+        }
+    },
+    {
+        "model": "simplybooksserverapi.author",
+        "pk": 3,
+        "fields": {
+            "email": "frank.herbert@example.com",
+            "first_name": "Frank",
+            "last_name": "Herbert",
+            "image": "https://example.com/images/frank_herbert.jpg",
+            "favorite": false
+        }
+    },
+    {
+        "model": "simplybooksserverapi.author",
+        "pk": 4,
+        "fields": {
+            "email": "jk.rowling@example.com",
+            "first_name": "J.K.",
+            "last_name": "Rowling",
+            "image": "https://example.com/images/jk_rowling.jpg",
+            "favorite": true
+        }
+    }
+]

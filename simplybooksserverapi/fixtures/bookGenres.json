@@ -1,0 +1,42 @@
+[
+    {
+        "model": "simplybooksserverapi.bookgenre",
+        "pk": 1,
+        "fields": {
+            "book_id": 1,
+            "genre_id": 1
+        }
+    },
+    {
+        "model": "simplybooksserverapi.bookgenre",
+        "pk": 2,
+        "fields": {
+            "book_id": 2,
+            "genre_id": 1
+        }
+    },
+    {
+        "model": "simplybooksserverapi.bookgenre",
+        "pk": 3,
+        "fields": {
+            "book_id": 3,
+            "genre_id": 3
+        }
+    },
+    {
+        "model": "simplybooksserverapi.bookgenre",
+        "pk": 4,
+        "fields": {
+            "book_id": 4,
+            "genre_id": 4
+        }
+    },
+    {
+        "model": "simplybooksserverapi.bookgenre",
+        "pk": 4,
+        "fields": {
+            "book_id": 7,
+            "genre_id": 1
+        }
+    }
+]
