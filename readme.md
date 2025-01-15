@@ -18,7 +18,7 @@ This application is designed for users who wish to manage their book collection.
 
 ## Links
 - Please see the [API Documentation](https://documenter.getpostman.com/view/33976888/2sAYQXpYcK)
-- Check out this [LOOM] (https://www.loom.com/share/0f75f2a05f6a49a3984bc1707d03ecf7?sid=e1c59be0-567f-4eab-a523-2b0b1aac41f4)
+- Check out this [LOOM] (https://www.loom.com/share/0f75f2a05f6a49a3984bc1707d03ecf7?sigitd=e1c59be0-567f-4eab-a523-2b0b1aac41f4)
 
 
 
