@@ -7,7 +7,7 @@ from simplybooksserverapi.models import BookGenre, Book, Genre
 
 class BookGenreView(ViewSet):
   
-    # GENRES ARE NOT LOCKED BEHIND UIDS BECAUSE THEY WILL BE PROVIDED BY SIMPLY BOOKS AND NOT EDITABLE BY THE USERS
+   
 
     def retrieve(self, request, pk):
         try:
@@ -30,10 +30,10 @@ class BookGenreView(ViewSet):
             bookId = Book.objects.get(pk=request.data["book"])
             genreId = Genre.objects.get(pk=request.data["genre"])
 
-            # Create BookGenre instance, using the IDs instead of model instances
+            
             bookGenre = BookGenre.objects.create(
-                book_id=bookId.id,  # Assign only the ID
-                genre_id=genreId.id  # Assign only the ID
+                book_id=bookId.id,  
+                genre_id=genreId.id  
             )
 
             serializer = BookGenreSerializer(bookGenre)
@@ -50,12 +50,12 @@ class BookGenreView(ViewSet):
             bookId = Book.objects.get(pk=request.data["book"])
             genreId = Genre.objects.get(pk=request.data["genre"])
 
-            # Fetch the BookGenre object that we are updating
+            
             bookGenre = BookGenre.objects.get(pk=pk)
 
-            # Assign the primary keys (IDs), not the objects themselves
-            bookGenre.book_id = bookId.id  # Use the ID, not the model instance
-            bookGenre.genre_id = genreId.id  # Use the ID, not the model instance
+            
+            bookGenre.book_id = bookId.id  
+            bookGenre.genre_id = genreId.id  
 
             # Save the updated BookGenre
             bookGenre.save()

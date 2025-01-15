@@ -6,7 +6,7 @@ from simplybooksserverapi.models import Genre, Book
 
 class GenreView(ViewSet):
   
-  # GENRES ARE NOT LOCKED BEHIND UIDS BECAUSE THEY WILL BE PROVIDED BY SIMPLY BOOKS AND NOT EDITABLE BY THE USERS
+
   
   def retrieve(self, request, pk):
     
